@@ -4,6 +4,9 @@ robots.py
 This module contains classes for simulating various robots with internal controller
 linearization.  These robots have internal models and are built to be plugged into
 other simulations.
+
+Authors:
+Kyle Crandall (crandallk@gwu.edu)
 '''
 
 import numpy as np

@@ -2,7 +2,11 @@
 DiffDrive.py
 
 This file extends the robot class to simulate a differential dirve robot.
-''' 
+
+Authors:
+Kyle Crandall (crandallk@gwu.edu)
+'''
+
 
 import numpy as np
 import math
@@ -161,12 +165,12 @@ if __name__ == '__main__':
 
   plt.figure(1)
   plt.plot(x[0], x[1])
-  plt.ylabel('ylabel')
-  plt.xlabel('xlabel')
-  plt.title('I dont know what to call this because there are no comments')
+  plt.ylabel('y position (m)')
+  plt.xlabel('x position (m)')
+  plt.title('Robot Path')
   plt.figure(2)
   plt.plot(t, x[2])
-  plt.ylabel('ylabel')
-  plt.xlabel('xlabel')
-  plt.title('I dont know what to call this because there are no comments (1)')
+  plt.ylabel('theta (rad)')
+  plt.xlabel('time (s)')
+  plt.title('Robot orientation')
   plt.show()
