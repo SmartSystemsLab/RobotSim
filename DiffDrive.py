@@ -2,6 +2,9 @@
 DiffDrive.py
 
 This file extends the robot class to simulate a differential dirve robot.
+
+Authors:
+Kyle Crandall (crandallk@gwu.edu)
 '''
 
 import numpy as np
