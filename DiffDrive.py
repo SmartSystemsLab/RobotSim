@@ -11,6 +11,7 @@ import numpy as np
 import math
 import robots
 import matplotlib.pyplot as plt
+from matplotlib import rcParams
 
 class DiffDrive(robots.Robot):
   '''
@@ -163,6 +164,12 @@ if __name__ == '__main__':
 
   plt.figure(1)
   plt.plot(x[0], x[1])
+  plt.ylabel('ylabel')
+  plt.xlabel('xlabel')
+  plt.title('I dont know what to call this because there are no comments')
   plt.figure(2)
   plt.plot(t, x[2])
+  plt.ylabel('ylabel')
+  plt.xlabel('xlabel')
+  plt.title('I dont know what to call this because there are no comments (1)')
   plt.show()
